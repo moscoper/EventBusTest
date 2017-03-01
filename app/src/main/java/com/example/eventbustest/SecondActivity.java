@@ -21,5 +21,7 @@ public class SecondActivity extends Activity {
     myEvent.setId(1);
     myEvent.setMsg("This is from SecondActivity");
     EventBus.getDefault().post(myEvent);
+
+    //test git branch
   }
 }
